@@ -445,7 +445,7 @@ A generic and open signature format that allows you to describe relevant log eve
 
 ## End Point Protection Analysis
 
-![Tools](Soc_Pics/Endpoint.png)
+![Tools](SOC_Pics/Endpoint.png)
 
 - Any of these tools can be bypassed, but very rarely see an attacker bypass all of these
 
