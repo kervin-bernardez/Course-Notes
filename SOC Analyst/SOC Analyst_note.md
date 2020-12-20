@@ -159,7 +159,7 @@ lsof -i -P
 
 ### USEFULL! (Proc and Processes)
 
-desciption yadayada
+< desciption >
 
 #proc
 
@@ -251,27 +251,27 @@ Select Interface
 
 Packet Breakdown
 
-![](interface.png)
+![](breakdown.png)
 
 Follow TCP Stream
 
-![](interface.png)
+![](tcp_stream.png)
 
 Statistics > Endpoints
 
-![](interface.png)
+![](endpoints.png)
 
 Statistics > Conversations
 
-![](interface.png)
+![](conversationspng)
 
 Statistics > Protocol Hierarchy
 
-![](interface.png)
+![](protocol_heirarchy.png)
 
 Statistics > HTTP > Requests
 
-![](interface.png)
+![](requests.png)
 
 ---
 
@@ -348,23 +348,27 @@ A free and open source Linux distribution for threat hunting, enterprise securit
 
 ## User Entity Behavior Analysis
 
-### Stacking
+### How UEBA Works: Stacking
 
-User Login = +1 User Logout = -1
+- User Login = +1 
 
-Example: @Threshold of 6 per day
+- User Logout = -1
 
-User Login = +2000 --> will trigger alert
+- Example: @Threshold of 6 per day
 
-### AI
+- (Password Spray Attack Happen)
 
-AI learns what is normal for each user account 
+- User Login = +2000 --> will trigger alert
 
-Example:
+###  How UEBA Works: AI
 
-Bob normaly logs into 3 systems every day
+- AI learns what is normal for each user account 
 
-Bob logs into 40 systems --> will trigger alert
+- Example:
+
+- Bob normaly logs into 3 systems every day
+
+- Bob logs into 40 systems --> will trigger alert
 
 ---
 
@@ -431,21 +435,27 @@ WevtUtil sl "Microsoft-Windows-PowerShell/Operational" /rt:false
 
 [Download Winlogbeat](https://www.elastic.co/beats/winlogbeat)
 
+### Sigma 
+
+A generic and open signature format that allows you to describe relevant log events in a straightforward manner.
+
+[Sigma Github](https://github.com/Neo23x0/sigma)
+
 ---
 
 ## End Point Protection Analysis
 
-### asd
+![Tools](Soc_Pics/Endpoint.png)
 
-### 
+- Any of these tools can be bypassed, but very rarely see an attacker bypass all of these
 
-### 
+- So if these tools is used as an architecture then it help reduce the risk of catastrofic failure 
 
 ---
 
 ## Internal Segmentation and Isolation 
 
-### asd
+- Most attacks target workstations then pivot to the servers
 
 ---
 
@@ -457,12 +467,34 @@ Most used tools for web pentesting
 
 Intercept Mode
 
+![](Soc_Pics/intercept_mode.png)
+
 Crawl
+
+![](Soc_Pics/crawl.png)
 
 Active Scan
 
-### Zedd Attack Proxy
+![](Soc_Pics/active_scant.png)
 
-asd
+[Download Burp Suite](https://portswigger.net/burp)
+
+### Zedd Attack Proxy (ZAP)
+
+One of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers
+
+[ZAP Github](https://github.com/zaproxy/zaproxy)
+
+### W3AF
+
+An open source web application security scanner which helps developers and penetration testers identify and exploit vulnerabilities in their web applications.
+
+[W3AD Github](https://github.com/andresriancho/w3af)
+
+### Nikto
+
+Web server scanner
+
+[Nikto Github](https://github.com/sullo/nikto)
 
 ---
