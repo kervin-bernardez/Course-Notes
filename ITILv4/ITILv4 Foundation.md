@@ -119,7 +119,7 @@ Managing specific costs and risks
 
 ### Elements 
 
-### Four Dimentions
+### Four Dimensions
 
 1. Organization and People
 
@@ -149,17 +149,17 @@ Managing specific costs and risks
 
 ![Service Value System](Pics/Service_value_model.png)
 
-Opportunity/Demmand
-- Opportunity : needs of customers realized by service provider to fulfil
+Opportunity/Demand
+- Opportunity : needs of customers realized by service provider to fulfils
 - Demand : requirement for products and services from customers
 
 Guiding principles 
 - Focus on value : every task an organization does should bring value to its stakeholders
-- Start where you are : assess & analyse the current scenario to identify and improve
-- Progress iteractively with feedback : opt for feedback every iteration
+- Start where you are : assess & analyses the current scenario to identify and improve
+- Progress iteratively with feedback : opt for feedback every iteration
 - Collaborate and promote visibility : collaborate with customer, users, etc. as it helps in creating higher value
 - Think and work holistically :  create processes that adds value to customers 
-- Keep it simple and practical : opt for minumum steps that are correct and do not add processes 
+- Keep it simple and practical : opt for minimum steps that are correct and do not add processes 
 - Optimize and automate : automate tasks to be more efficient
 
 Governance 
@@ -171,9 +171,9 @@ Service Value Chain
 - Plan : creating plans provided by the organization
 - Engage : good understanding of stakeholders requirements and should continue to maintain a good relationship
 - Design & transitions: focuses on creating and releasing new and changed services
-- Obtain & build : development and manage the infrustructure 
+- Obtain & build : development and manage the infrastructure 
 - Deliver & support : ensure services are delivered and support the stakeholders expectations
-- Improve : focus on improving performace of infrastructure and third party services
+- Improve : focus on improving performance of infrastructure and third party services
 
 Management Practices 
 - General management : applicable across the whole organization
@@ -214,9 +214,9 @@ Management Practices
 - - Infrastructure and platform management
 
 Continual improvement
-- The ITIL continual improvement model: structured approache to organization in order to bring improvemennt
-- The improve service value chain activity : stablish continual improvement into service value chain
-- The conitnual improvement practice : support day to day improvement efforts
+- The ITIL continual improvement model: structured approach to organization in order to bring improvement
+- The improve service value chain activity : establish continual improvement into service value chain
+- The continual improvement practice : support day to day improvement efforts
 
 Example:
 ![Continual Improvement](Pics/Continual_improvement.png)
