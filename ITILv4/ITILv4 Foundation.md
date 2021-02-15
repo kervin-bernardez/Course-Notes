@@ -119,6 +119,9 @@ Managing specific costs and risks
 
 ### Elements 
 
+
+![PESTLE](Pics/Pestle.png)
+
 ### Four Dimensions
 
 1. Organization and People
@@ -142,8 +145,6 @@ Managing specific costs and risks
 5. Legal factors
 
 6. Environmental factors
-
-![PESTLE](Pics/Pestle.png)
 
 ### ITIL service value system
 
