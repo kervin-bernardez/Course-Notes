@@ -179,15 +179,15 @@ strings exe
 
 ### IP Header
 
-![IP Header](SOC_Pics/IP_header.png)
+![IP Header](Pics/IP_header.png)
 
 ### TCP Header
 
-![TCP Header](SOC_Pics/TCP_header.png)
+![TCP Header](Pics/TCP_header.png)
 
 ### UDP Header
 
-![UDP Header](SOC_Pics/UDP_header.png)
+![UDP Header](Pics/UDP_header.png)
 
 ### 3-Way Handshake
 
@@ -247,31 +247,31 @@ tcpdump -w <file.pcap>
 
 Select Interface
 
-![](interface.png)
+![](Pics/interface.png)
 
 Packet Breakdown
 
-![](breakdown.png)
+![](Pics/breakdown.png)
 
 Follow TCP Stream
 
-![](tcp_stream.png)
+![](Pics/tcp_stream.png)
 
 Statistics > Endpoints
 
-![](endpoints.png)
+![](Pics/endpoints.png)
 
 Statistics > Conversations
 
-![](conversationspng)
+![](Pics/conversationspng)
 
 Statistics > Protocol Hierarchy
 
-![](protocol_heirarchy.png)
+![](Pics/protocol_heirarchy.png)
 
 Statistics > HTTP > Requests
 
-![](requests.png)
+![](Pics/requests.png)
 
 ---
 
@@ -445,7 +445,7 @@ A generic and open signature format that allows you to describe relevant log eve
 
 ## End Point Protection Analysis
 
-![Tools](SOC_Pics/Endpoint.png)
+![Tools](Pics/Endpoint.png)
 
 - Any of these tools can be bypassed, but very rarely see an attacker bypass all of these
 
@@ -467,15 +467,15 @@ Most used tools for web pentesting
 
 Intercept Mode
 
-![](Soc_Pics/intercept_mode.png)
+![](Pics/intercept_mode.png)
 
 Crawl
 
-![](Soc_Pics/crawl.png)
+![](Pics/crawl.png)
 
 Active Scan
 
-![](Soc_Pics/active_scant.png)
+![](Pics/active_scant.png)
 
 [Download Burp Suite](https://portswigger.net/burp)
 
