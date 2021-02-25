@@ -361,7 +361,7 @@ A free and open source Linux distribution for threat hunting, enterprise securit
 
 - User Login = +2000 --> will trigger alert
 
-###  How UEBA Works: AI
+### How UEBA Works: AI
 
 - AI learns what is normal for each user account 
 
