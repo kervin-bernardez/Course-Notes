@@ -20,6 +20,7 @@ netstat -f
 ```
 
 - -f: Show fully qualified domain name
+
 ### tasklist: Displays a list of currently running processes on the local computer or on a remote computer.
 
 ```
