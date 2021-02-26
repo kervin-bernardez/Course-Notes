@@ -4,7 +4,7 @@ Description
 
 ## Windows commands:
 
-### netstat: Displays active TCP connections, ports on which the computer is listening
+### netstat: Displays active TCP connections, ports on which the computer is listening.
 
 ```
 netstat -naob
@@ -94,7 +94,7 @@ grep <pattern>
 locate <name>
 ```
 
-### ps: Display current processes 
+### ps: Display current processes
 
 ```
 ps aux
@@ -116,7 +116,7 @@ top
 ifconfig 
 ```
 
-### ping: Send ICMP echo requests to *ip addr* 
+### ping: Send ICMP echo requests to *ip addr*
 
 #ping
 
@@ -248,31 +248,31 @@ tcpdump -w <file.pcap>
 
 Select Interface
 
-![](Pics/interface.png)
+![interface](Pics/interface.png)
 
 Packet Breakdown
 
-![](Pics/breakdown.png)
+![breakdown](Pics/breakdown.png)
 
 Follow TCP Stream
 
-![](Pics/tcp_stream.png)
+![tcp stream](Pics/tcp_stream.png)
 
 Statistics > Endpoints
 
-![](Pics/endpoints.png)
+![endpoints](Pics/endpoints.png)
 
 Statistics > Conversations
 
-![](Pics/conversationspng)
+![conversations](Pics/conversations.png)
 
 Statistics > Protocol Hierarchy
 
-![](Pics/protocol_heirarchy.png)
+![protocol heirarchy](Pics/protocol_heirarchy.png)
 
 Statistics > HTTP > Requests
 
-![](Pics/requests.png)
+![requests](Pics/requests.png)
 
 ---
 
@@ -317,7 +317,7 @@ volatility_2.6_win64_standalone.exe -f <file.vmem> --profile=Win10x64_10586 dlll
 
 ### Netflow
 
-A network protocol for collecting IP traffic information and monitoring network flow
+A network protocol for collecting IP traffic information and monitoring network flow.
 
 [SolarWinds Netflow](https://www.solarwinds.com/netflow-traffic-analyzer/use-cases/what-is-netflow)
 
@@ -341,7 +341,7 @@ A method for creating SSL/TLS client fingerprints that should be easy to produce
 
 ### Security Onion
 
-A free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management
+A free and open source Linux distribution for threat hunting, enterprise security monitoring, and log management.
 
 [Security Onion Github](https://github.com/Security-Onion-Solutions/security-onion)
 
@@ -367,7 +367,7 @@ A free and open source Linux distribution for threat hunting, enterprise securit
 
 - Example:
 
-- Bob normaly logs into 3 systems every day
+- Bob normally logs into 3 systems every day
 
 - Bob logs into 40 systems --> will trigger alert
 
@@ -428,15 +428,21 @@ WevtUtil sl "Microsoft-Windows-PowerShell/Operational" /ms:512000000
 WevtUtil sl "Microsoft-Windows-PowerShell/Operational" /rt:false
 ```
 
-### Sysmon 
+### DeepBlueCLI
+
+A PowerShell Module for Threat Hunting via Windows Event Logs.
+
+[DeepBlueCLI Github](https://github.com/sans-blue-team/DeepBlueCLI)
+
+### Sysmon
 
 [Download Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
 
-### Winlogbeat 
+### Winlogbeat
 
 [Download Winlogbeat](https://www.elastic.co/beats/winlogbeat)
 
-### Sigma 
+### Sigma
 
 A generic and open signature format that allows you to describe relevant log events in a straightforward manner.
 
@@ -450,17 +456,23 @@ A generic and open signature format that allows you to describe relevant log eve
 
 - Any of these tools can be bypassed, but very rarely see an attacker bypass all of these
 
-- So if these tools is used as an architecture then it help reduce the risk of catastrofic failure 
+- So if these tools is used as an architecture then it help reduce the risk of catastrophic failure
+
+### Bluespawn
+
+An active defense and endpoint detection and response tool which means it can be used by defenders to quickly detect, identify, and eliminate malicious activity and malware across a network.
+
+[Bluespawn Github](https://github.com/ION28/BLUESPAWN)
 
 ---
 
-## Internal Segmentation and Isolation 
+## Internal Segmentation and Isolation
 
 - Most attacks target workstations then pivot to the servers
 
 ---
 
-## Vulnerability Managment
+## Vulnerability Management
 
 ### Burp Suite Pro
 
@@ -468,21 +480,21 @@ Most used tools for web pentesting
 
 Intercept Mode
 
-![](Pics/intercept_mode.png)
+![intercept](Pics/intercept_mode.png)
 
 Crawl
 
-![](Pics/crawl.png)
+![crawl](Pics/crawl.png)
 
 Active Scan
 
-![](Pics/active_scant.png)
+![active scan](Pics/active_scan.png)
 
 [Download Burp Suite](https://portswigger.net/burp)
 
 ### Zedd Attack Proxy (ZAP)
 
-One of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers
+One of the world’s most popular free security tools and is actively maintained by a dedicated international team of volunteers.
 
 [ZAP Github](https://github.com/zaproxy/zaproxy)
 
@@ -490,11 +502,11 @@ One of the world’s most popular free security tools and is actively maintained
 
 An open source web application security scanner which helps developers and penetration testers identify and exploit vulnerabilities in their web applications.
 
-[W3AD Github](https://github.com/andresriancho/w3af)
+[W3AF Github](https://github.com/andresriancho/w3af)
 
 ### Nikto
 
-Web server scanner
+Web server scanner.
 
 [Nikto Github](https://github.com/sullo/nikto)
 
