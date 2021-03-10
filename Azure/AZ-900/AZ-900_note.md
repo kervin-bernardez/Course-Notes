@@ -76,7 +76,8 @@ Containers
 - fast and efficient way to run an app
 - run on common ground on regardless of its OS
 
-Azure Network Services
+### Azure Network Services
+
 - Azure Virtual Network
 - Azure Load Balancers
 - VPN Gateway
@@ -99,7 +100,6 @@ Azure Network Services
 - Semi-structured : JSON, HTML, …
 
 - Unstructured : PDFs, JPGs, videos, …
-
 
 ### Storage Account
 
@@ -130,7 +130,6 @@ Azure Network Services
 
 ### Azure HDInsight
 
-
 ### Azure Data Lake Analytics
 
 - on demand analytics
@@ -140,7 +139,7 @@ Azure Network Services
 - Azure Machine Learning Service - for data scientist
 - Azure Machine Learning Studio - for noobs
 
-### Serverless computing
+### Serverless Computing
 
 - Azure Function - create based on events
 - Azure Logic apps - create workflows make a decision 
@@ -165,7 +164,7 @@ Azure Network Services
 
 ## Module 3 - Security, Privacy, Compliance, and Trust
 
-### Defense in depth - layered approach security
+### Defense in Depth - layered approach security
 
 - Shared security : based between provider and consumer 
 
@@ -239,11 +238,11 @@ Azure Network Services
 
 ### Tags
 
-- provides meta data on Azure resources
+- provides metadata on Azure resources
 
 ### Azure Monitor
 
-- collect, analyze and act on Activity logs and Metrics
+- collect, analyze, and act on Activity logs and Metrics
 
 ### Azure Service Health
 
@@ -265,7 +264,8 @@ Azure Network Services
 
 ### Management Groups
 
-### Pricing and purchasing
+### Pricing and Purchasing
+
 Depends
 
 - Enterprise
@@ -284,7 +284,7 @@ Factors
 
 - egress traffic
 
-### Pricing calculator
+### Pricing Calculator
 
 - estimate cost associated with your usage
 
