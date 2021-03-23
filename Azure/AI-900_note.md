@@ -221,7 +221,7 @@ Language Understanding Intelligent Service (LUIS) : use this service to train a 
 Capabilities:
 - Determine the language of a document or text
 - Perform sentiment analysis on text to determine a positive or negative sentiment
-- Extract key phrases from text that might indicate4its main talking points
+- Extract key phrases from text that might indicate its main talking points
 -  Identify and categorize entities in the text
 
 ### Translator Text
