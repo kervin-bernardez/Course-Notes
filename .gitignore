@@ -1,2 +1,9 @@
-.vscode
-.DS_Store
+#exclude all
+*.*
+*_*
+
+#except md, py, and png
+!**/*_note.md
+!**/*/*.py
+!**/Pics/*.png
+
