@@ -153,7 +153,14 @@ ntlmrelayx.py -6 -t ldaps://dc-ip -wh fake.domain.name -l lootme
 
 Mitigation:
 
-![](Pics/ad1.png)
+1. IPv6 poisoning abuses the fact that Windows queries for an IPv6 address even in IPv4-only environments. If you don't use IPv6 internally, the safest way to prevent mitm6 is to block DHCPv6 traffic and incoming router advertisements in Windows Firewall via Group Policy. Disabling IPv6 entirely may have unwanted side effects. Setting the following predefined rules to Block instead of Allow prevents the attack from working: 
+* a. (Inbound) Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCPV6-In) 
+* b. (Inbound) Core Networking - Router Advertisement (ICMPv6-1n) 
+* c. (Outbound) Core Networking - Dynamic Host Configuration Protocol for IPv6(DHCPV6-Out) 
+2. If WPAD is not in use internally, disable it via Group Policy and by disabling the Win HttpAutoProxySvc service. 
+3. Relaying to LDAP and LDAPS can only be mitigated by enabling both LDAP signing and LDAP channel binding. 
+4. Consider Administrative users to the Protected Users group or marking them as Account is sensitive and cannot be delegated, which will prevent any impersonation of that user via delegation. 
+
 
 ### Passback Attacks
 
