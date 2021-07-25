@@ -1,6 +1,6 @@
 ## Buffer Overflow
 
-![Anatomy of the stack](stack.png)
+![Anatomy of the stack](Pics/stack.png)
 
 ### Steps to conduct a buffer overflow
 1. Spiking
