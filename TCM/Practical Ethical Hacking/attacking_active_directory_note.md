@@ -193,7 +193,7 @@ powershell -ep bypass
 Get-NetDomain                                   #network domain enum
 Get-NetDomainController                         #network domain controller enum
 Get-DomainPolicy                                #domain policy enum
-(Get-DomainPolicy)."system access"               #domain password policy
+(Get-DomainPolicy)."system access"              #domain password policy
 Get-NetUser                                     #user enum
 Get-NetUser | select cn                         #username enum
 Get-UserProperty                                #user property enum
